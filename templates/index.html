@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+<title>Your fwol.in app</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head> 
+<body> 
+
+<!-- START FWOLIN HEADER -->
+<style>
+#fwolin-header { height: 30px; font-family: Helvetica, Helvetica Neue, Arial, sans-serif; font-size: 14px; }
+.fwolin-wrapper { position: absolute; top: 0; left: 0; width: 100%; background: #444; color: white; height: 30px; }
+.fwolin-brand { float: left; padding: 6px 100px 0 10px; height: 25px; font-weight: bold; color: #89f; }
+.fwolin-brand:hover { color: white; }
+.fwolin-status { float: right; margin: 6px 10px 0 0; height: 25px; }
+.fwolin-status a { color: #bbb; }
+</style>
+<div id="fwolin-header">
+<div class="fwolin-wrapper">
+<a href="http://fwol.in/" class="fwolin-brand">f w ol.in</a>
+<div class="fwolin-status">Logged in as {{ email }}. <a href="http://fwol.in/login/?callback=http://fwol.in/">Logout?</a></div>
+</div>
+</div>
+<!-- END FWOLIN HEADER -->
+
+<h1>Logged in as: {{ email }}</h1>
+</body>
+</html> 
