@@ -12,7 +12,7 @@ Getting started, cd into your app directory and run these commands:
 virtualenv venv --distribute
 export FWOLIN_EMAIL=your.email.address@students.olin.edu
 echo "!!" >> venv/bin/activate
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 
 Every time you start developing:
